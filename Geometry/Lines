@@ -45,6 +45,28 @@ ld distToSegment(point s, point e, point c){
     return abs(c - (s + v1 * t));
 }
 
+ld distSegmentSegment(point a, point b, point x, point y){
+    ld s = 0, e = 1000, m1, m2;
+    point pm1, pm2;
+ 
+    for(int i = 0; i < 200; i++){
+        m1 = s + (e - s) / 3;
+        m2 = e - (e - s) / 3;
+ 
+        pm1 = a + (b - a) * (m1 / 1000);
+        pm2 = a + (b - a) * (m2 / 1000);
+ 
+        if(distToSegment(x, y, pm1) <= distToSegment(x, y, pm2))
+            e = m2;
+        else
+            s = m1;
+    }
+ 
+    pm1 = a + (b - a) * (s / 1000);
+ 
+    return distToSegment(x, y, pm1);
+}
+
 bool areCollinear(point a, point b, point c){
     return fabs( cross(b-a, c-a) ) < eps;
 }
