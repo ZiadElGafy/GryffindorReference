@@ -5,15 +5,16 @@ struct mergeSortTree{
         tree.assign(4 * sz, {});
     }
 
-    vector<int> merge(vector<int>& u, vector<int>& v){
+    vector<int> merge(vector<int> &u, vector<int> &v){
         vector<int> ret;
         int i = 0, j = 0;
 
-        while(i < u.size() and j < v.size())
-            if(u[i] < v[j])
+        while(i < u.size() and j < v.size()){
+            if(u[i] <= v[j])
                 ret.push_back(u[i++]);
             else
                 ret.push_back(v[j++]);
+        }
 
         while(i < u.size())
             ret.push_back(u[i++]);
@@ -26,7 +27,7 @@ struct mergeSortTree{
 
     void build(int node, int start, int end){
         if(start == end)
-            return tree[node] = {a[start]}, void();
+            return tree[node] = a[start], void();
 
         int m = (start + end) >> 1;
         build(2 * node, start, m);
@@ -35,30 +36,15 @@ struct mergeSortTree{
         tree[node] = merge(tree[2 * node], tree[2 * node + 1]);
     }
 
-    void set(int node, int start, int end, int i, int v){
-        if(start == end)
-            return tree[node] = {v}, void();
-
-        int m = (start + end) >> 1;
-
-        if(start <= i and i <= m)
-            set(2 * node, start, m, i, v);
-        else
-            set(2 * node + 1, m + 1, end, i, v);
-
-        tree[node] = merge(tree[2 * node], tree[2 * node + 1]);
-    }
-
-    vector<int> query(int node, int start, int end, int left, int right){
+    int query(int node, int start, int end, int left, int right){
         if(start > right or end < left)
-            return {};
-        
-        if(left <= start and end <= right)
-            return tree[node];
-        
+            return 0;
+
+        if(left <= start and end <= right){
+            return ();
+        }
+
         int m = (start + end) >> 1;
-        vector<int> p1 = query(2 * node, start, m, left, right);
-        vector<int> p2 = query(2 * node + 1, m + 1, end, left, right);
-        return merge(p1, p2);
+        return query(2 * node, start, m, left, right) + query(2 * node + 1, m + 1, end, left, right);
     }
 };
