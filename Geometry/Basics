@@ -1,6 +1,6 @@
-const ld eps = 1e-8;
 #define ld long double
 #define pi acos(-1)
+const ld eps = 1e-8;
 //#define point complex<ld>
 //#define dot(a, b) ((conj(a) * (b)).real())
 //#define cross(a, b) ((conj(a) * (b)).imag())
@@ -90,8 +90,16 @@ ld abs(point a){
     return sqrt(a.X * a.X + a.Y * a.Y);
 }
 
+pType abs2(point a){
+    return a.X * a.X + a.Y * a.Y;
+}
+
 ld dist(point a, point b){
     return sqrt(fabs(a.X - b.X) * fabs(a.X - b.X) + fabs(a.Y - b.Y) * fabs(a.Y - b.Y));
+}
+
+pType dist2(point a, point b){
+    return (a.X - b.X) * (a.X - b.X) + (a.Y - b.Y) * (a.Y - b.Y);
 }
 
 ld fixAngle(ld a){
