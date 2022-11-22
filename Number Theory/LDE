@@ -60,7 +60,7 @@ void lowerXUnderBar(ll &x, ll &y, ll &xUnit, ll &yUnit, ll bar, bool orEqual){
     y += shift * yUnit;
 }
 
-void minXOverbar(ll &x, ll &y, ll &xUnit, ll &yUnit, ll bar, bool orEqual){
+void minXOverBar(ll &x, ll &y, ll &xUnit, ll &yUnit, ll bar, bool orEqual){
     if(x < bar or (x == bar and !orEqual)){
         ll shift = (bar - x + xUnit - orEqual) / xUnit;
         x += shift * xUnit;
