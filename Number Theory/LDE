@@ -66,7 +66,7 @@ void minXOverBar(ll &x, ll &y, ll &xUnit, ll &yUnit, ll bar, bool orEqual){
         x += shift * xUnit;
         y -= shift * yUnit;
     }
-    else{ // x > bar or (x == bar and orEqual)
+    else{
         ll shift = (x - bar - !orEqual) / xUnit;
         x -= shift * xUnit;
         y += shift * yUnit;
