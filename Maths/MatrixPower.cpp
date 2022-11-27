@@ -1,5 +1,5 @@
 #define matrix vector<vector<int>>
- const ll mod2 = 1ll * mod * mod;
+const ll mod2 = 1ll * mod * mod;
  
 int add(int a, int b){
     return (a + b) % mod;
