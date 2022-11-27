@@ -8,11 +8,11 @@
 // end node ----> in degree == out degree + 1 
 // 2- connected component 
 
-int n ,m , in[N], out[N],vis[N];
+int n, m, in[N], out[N], vis[N];
 vector < pair < int , int > > g[N];
  
 vector < int > path;
-void Tour( int node)
+void Tour(int node)
 {
     while(!g[node].empty())
     {
