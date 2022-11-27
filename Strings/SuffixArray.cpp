@@ -1,4 +1,3 @@
-
 struct SuffixArray
 {
     string S;
