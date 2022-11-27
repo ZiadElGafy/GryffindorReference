@@ -1,4 +1,3 @@
-
 using cd = complex<double>;
 const double PI = acos(-1);
  
