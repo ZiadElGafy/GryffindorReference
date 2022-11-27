@@ -1,0 +1,23 @@
+[Geometry]
+Geometry/Basics.cpp	Geometry Basics
+Geometry/Lines.cpp	Lines
+Geometry/TriangleThirdPoint.cpp	Triangle Third Point
+Geometry/Polygons/PolygonArea.cpp	Polygon Area
+Geometry/Polygons/ConvexHull.cpp	Convex Hull
+Geometry/Polygons/PointInConvexPolygonO(N).cpp	Point In Convex Polygon O(n)
+Geometry/Polygons/PointInPolygonO(N).cpp	Point In Polygon O(n)
+Geometry/Polygons/PointInConvexPolygonO(logN).cpp	Point In Convex Polygon O(log n)
+Geometry/Polygons/PolygonCut.cpp	Polygon Cut
+Geometry/Polygons/ConvexPolygonPolygonIntersection.cpp	Convex Polygon Polygon Intersection
+Geometry/Polygons/MinimumEnclosingCircle.cpp	Minimum Enclosing Circle
+Geometry/Polygons/PolygonCentroid.cpp	Polygon Centroid
+Geometry/Polygons/SortPolygonCCW.cpp	Sort Polygon CCW
+Geometry/Polygons/LatticePoints.cpp	Lattice Points
+Geometry/Polygons/isConvexPolygon.cpp	isConvexPolygon Check
+Geometry/Polygons/isSimplePolygon.cpp	isSimplePolygon Check
+Geometry/Miscellaneous/ClosestPairOfPoints.cpp	Closest Pair Of Points
+Geometry/Miscellaneous/IntersectionOfMultipleSegments.cpp	Intersection Of Multiple Segments
+Geometry/Miscellaneous/UnionAreaOfRectangles.cpp	Union Area Of Rectangles
+Geometry/Miscellaneous/QuadEquationRoots.cpp	Roots Of Quadratic Equation
+Geometry/Miscellaneous/isRectangle.cpp	isRectangle Check
+Geometry/Miscellaneous/isSquare.cpp	isSquare.cpp
