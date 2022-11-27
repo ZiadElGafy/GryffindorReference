@@ -1,6 +1,5 @@
 #define matrix vector < vector < ld > >
- 
- 
+
 matrix mul( matrix &a , matrix &b)
 {
     int n = a.size() , k = a[0].size();
