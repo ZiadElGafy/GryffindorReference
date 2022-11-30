@@ -1,3 +1,16 @@
+[DataStructures]
+DataStructures/BIT.cpp BIT
+DataStructures/DSU.cpp DSU
+DataStructures/DSUWithRollBack.cpp DSU with Roll Back
+DataStructures/ImplicitSegmentTreeWithLazy.cpp Implicit SegmentTree with Lazy
+DataStructures/MergeSortTree.cpp Merge Sort Tree
+DataStructures/Mo.cpp MO
+DataStructures/OrderedSet.cpp Ordered Set
+DataStructures/PersistentSegmentTree.cpp Persistent Segment Tree
+DataStructures/PersistentSegmentTreeWithLazy.cpp Persistent Segment Tree with Lazy
+DataStructures/SparseTable.cpp Sparse Table
+DataStructures/WaveletTree.cpp Wavelet Tree
+
 [Geometry]
 Geometry/Basics.cpp	Geometry Basics
 Geometry/Lines.cpp	Lines
