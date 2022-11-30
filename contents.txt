@@ -11,6 +11,24 @@ DataStructures/PersistentSegmentTreeWithLazy.cpp Persistent Segment Tree with La
 DataStructures/SparseTable.cpp Sparse Table
 DataStructures/WaveletTree.cpp Wavelet Tree
 
+[Dp Optimiaztions]
+DpOptimiaztions/ConvexHullTrick.cpp Convex Hull Trick
+DpOptimiaztions/DivideAndConquerDP.cpp Divide And Conquer DP
+DpOptimiaztions/KnuthOptimization.cpp Knuth Optimization
+DpOptimiaztions/LargestZeroSubmatrix.cpp Largest Zero Submatrix
+DpOptimiaztions/SoS_Dp.cpp SoS DP
+DpOptimiaztions/Sub_Masks.cpp Sub Masks
+
+[Flows]
+Flows/Dinic.cpp Dinic 
+Flows/DinicWithDoubles.cpp Dinic with doubles
+Flows/HopkroftKarpMaxBipartiteMatching.cpp  Maximimum Bipartite Matching
+Flows/HungarianAlgorithm.cpp Hungarian 
+Flows/MaxFlowPushRelabel.cpp Push Relabel
+Flows/MaximumMatching.cpp Maximum Matching
+Flows/MinCostMaxFlow.cpp Min Cost Max Flow
+Flows/MinCostMaxFlowWithNegativeCycles.cpp Min Cost Max Flow with negative Cycles
+
 [Geometry]
 Geometry/Basics.cpp	Geometry Basics
 Geometry/Lines.cpp	Lines
