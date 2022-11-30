@@ -52,3 +52,67 @@ Geometry/Miscellaneous/UnionAreaOfRectangles.cpp	Union Area Of Rectangles
 Geometry/Miscellaneous/QuadEquationRoots.cpp	Roots Of Quadratic Equation
 Geometry/Miscellaneous/isRectangle.cpp	isRectangle Check
 Geometry/Miscellaneous/isSquare.cpp	isSquare.cpp
+
+[Graphs]
+Graphs/BellmanFordCheck.cpp Bellman Ford Check
+Graphs/BellmanFordNegativeCycleNodes.cpp Bellman Ford Negative Cycle Nodes
+Graphs/BellmanFrodToSolveSystemOfInequalities.cpp Bellman Frod To Solve System Of Inequalities
+Graphs/BiConnectedComponents.cpp BiConnected Components
+Graphs/CheckingBipartitenessOnlineDSU.cpp Checking Bipartiteness Online DSU
+Graphs/EulerPathAndCircuitInDirectedGraph.cpp Euler Path And Circuit In Directed Graph
+Graphs/EulerPathAndCircuitInUndirectedGraph.cpp Euler Path And Circuit In Undirected Graph
+Graphs/FloydWarshall.cpp Floyd Warshall
+Graphs/KirchhoffsTheorem(numberOfMSTsInAGraph(O(N%5E3)).cpp Kirchhoffs Theorem (number Of MSTs In A Graph(O(N^3))
+Graphs/Kruskal.cpp Kruskal
+Graphs/TrajanAndSCC.cpp Trajan And SCC
+
+[Maths]
+Maths/BabyStepGiantStep.cpp Baby Step Giant Step
+Maths/BasisOfVectors.cpp Basis Of Vectors
+Maths/CatalanNumber.cpp Catalan Number
+Maths/DeterminantMatrixUsingGauss.cpp Determinant Matrix Using Gauss
+Maths/FFT.cpp FFT
+Maths/GaussEliminationForSolvingSystem.cpp Gauss Elimination For Solving System
+Maths/GaussEliminationMod.cpp Gauss Elimination Mod
+Maths/GaussFindingInverseMatrixModule2Bitsets.cpp Gauss Finding Inverse Matrix Module2 Bit sets
+Maths/MatrixInverse.cpp Matrix Inverse
+Maths/MatrixInverseMod2.cpp Matrix Inverse Mod2
+Maths/MatrixPower.cpp Matrix Power
+Maths/MatrixPowerDoubles.cpp Matrix Power Doubles
+Maths/MillerRabin.cpp Miller Rabin
+Maths/NTT.cpp NTT
+Maths/NTT_Kactl.cpp NTT_Kactl
+Maths/RankMatrixUsingGauss.cpp Rank Matrix Using Gauss
+Maths/SQRTranges.cpp SQRT ranges
+
+[Miscellaneous]
+Miscellaneous/Bitsets.cpp Bitsets
+Miscellaneous/LISNlog.cpp LISN log
+Miscellaneous/PartialSum.cpp Partial Sum
+Miscellaneous/RNGandBigInt.cpp RNG and Big Int
+Miscellaneous/StringNumberMultiplication.cpp String Number Multiplication
+Miscellaneous/StringStringAddition(Integers).cpp String String Addition (Integers)
+Miscellaneous/TernarySearch.cpp Ternary Search
+
+[Number Theory]
+NumberTheory/ChineseRemainderTheorem.cpp Chinese Remainder Theorem
+NumberTheory/LDE.cpp LDE
+NumberTheory/Mobius.cpp Mobius
+NumberTheory/PascalsTriangle(nCr).cpp Pascals Triangle (nCr)
+NumberTheory/Phi.cpp Phi
+
+[Strings]
+Strings/AhoCorasick.cpp Aho Corasick
+Strings/DoubleHash(Ziad).cpp Double Hash (Ziad)
+Strings/KMP.cpp KMP
+Strings/Manacher.cpp Manacher
+Strings/SuffixArray.cpp Suffix Array
+Strings/SuffixAutomaton.cpp Suffix Automaton
+Strings/Trie(Mariam).cpp Trie (Mariam)
+Strings/Trie(Ziad).cpp Trie (Ziad)
+Strings/Z-Algo.cpp Z-Algo
+
+[Trees]
+Trees/CentroidDecomposition.cpp Centroid Decomposition
+Trees/HLD.cpp HLD
+Trees/LCAandKthAncestor.cpp LCA and Kth Ancestor
